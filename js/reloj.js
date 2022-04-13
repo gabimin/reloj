@@ -32,7 +32,7 @@ const mostrarReloj = () => {
   let diaSemana = dias[fecha.getDay()];
   let dia = fecha.getDate();
   let mes = meses[fecha.getMonth()];
-  let fechaTexto = `${diaSemana} ${dia} de ${mes}`;
+  let fechaTexto = `${diaSemana} <br> ${dia} de ${mes}`;
   document.getElementById("fecha").innerHTML = fechaTexto;
 
   /* document.getElementById("contenedor").classList.toggle("animar"); */

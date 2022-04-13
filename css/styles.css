@@ -11,16 +11,17 @@ body {
 
 .reloj-contenedor {
   background-color: rgba(12, 167, 206, 0.331);
-  padding: 0 1.5rem 1.5rem;
+  padding: 0.5rem 1.5rem 1.5rem;
   max-width: 24rem;
   text-align: center;
+  line-height: 165%;
   border-radius: 0 0 0.75rem 0.75rem;
   margin: 0 auto;
   display: block;
 }
 
 #hora {
-  font-size: 3rem;
+  font-size: 4rem;
   margin: 0 auto;
   max-width: 99%;
 }
